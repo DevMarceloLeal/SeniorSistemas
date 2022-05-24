@@ -1,0 +1,47 @@
+unit uView.BackTransparent;
+
+interface
+
+uses
+  Winapi.Windows,
+  System.Classes,
+  Vcl.Forms;
+
+type
+  TfrmBlack = class(TForm)
+  private
+    FEsquerda: Integer;
+    FComprimento: Integer;
+    FTopo: Integer;
+    FPosicao: TPosition;
+    FLargura: Integer;
+  public
+    class function New: TfrmBlack;
+    property Largura: Integer read FLargura write FLargura;
+    property Comprimento: Integer read FComprimento write FComprimento;
+    property Topo: Integer read FTopo write FTopo;
+    property Esquerda: Integer read FEsquerda write FEsquerda;
+    property Posicao: TPosition read FPosicao write FPosicao;
+  end;
+
+var
+  frmBlack: TfrmBlack;
+
+implementation
+
+{$R *.dfm}
+
+{ TfrmBlack }
+
+class function TfrmBlack.New: TfrmBlack;
+begin
+  frmBlack          := TfrmBlack.Create(nil);
+  frmBlack.Width    := Largura;
+  frmBlack.Height   := Comprimento;
+  frmBlack.Top      := Topo;
+  frmBlack.Left     := Esquerda;
+  frmBlack.Position := Posicao;
+  Result := frmBlack;
+end;
+
+end.

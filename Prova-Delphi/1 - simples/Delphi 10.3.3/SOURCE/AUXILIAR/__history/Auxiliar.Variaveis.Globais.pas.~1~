@@ -1,0 +1,73 @@
+unit Auxiliar.Variaveis.Globais;
+
+interface
+
+uses
+  Vcl.Forms,
+  Datasnap.DBClient;
+
+type
+  TOperacao = (opNovo, opAlterar, opExcluir, opConsultar, opListar, opCancelar, opSenhas);
+  TResultado = Array of String;
+  TListaExclusao = Array of Integer;
+
+  TRecordConexao = record
+    Status : String;
+  end;
+
+var
+  gTopo: Integer;
+  gEsquerda: Integer;
+  gLargura: Integer;
+  gComprimento: Integer;
+  gPosicao: TPosition = poMainFormCenter;
+  gNumeroPedido: String;
+  gAcertouEstoque: Boolean;
+  gJanelas_Abertas: Integer;
+  gStatus: String;
+
+  gLoja: Integer = 1;
+  gNomeUsuario: String = 'PADRAO';
+  gNivelUsuario: String = 'ADMINISTRADOR';
+  gLojaUsuario: String = 'LOJA PADRÃO';
+
+  gDesenvolvedor: String = '©Win4Five Sistemas';
+  gTelDesenvolvedor: String = '(21) 3734-3994';
+
+  // Centralização das Mensagens
+  gMsgPerguntaSairSistema: String = 'Deseja Realmente Sair do Sistema ?';
+  gMsgPerguntaExclusao: String = 'Confirma Exclusão do Registro ?';
+
+  gMsgIncluido: String = 'Registro Incluído C/Sucesso !!!';
+  gMsgAlterado: String = 'Alteração Efetuada C/Sucesso !!!';
+  gMsgExcluido: String = 'Exclusão Efetuada C/Sucesso !!!';
+  gMsgSenhaAlterada: String = 'Senha Alterada C/Sucesso !!!';
+
+  gMsgAlteracaoBloqueada: String = 'Alteração Não Permitida !!!';
+  gMsgExclusaoBloqueada: String = 'Exclusão Não Permitida !!!';
+  gMsgManutencaoBloqueada: String = 'Manutenção Não Permitida !!!';
+
+  gMsgErroIncluido: String = 'Erro ao Incluir o Registro  !!!';
+  gMsgErroAlterado: String = 'Erro ao Alterar o Registro  !!!';
+  gMsgErroExcluido: String = 'Erro ao Excluir o Registro  !!!';
+
+  gMsgUsrNaoExiste: String = 'Usuário não Encontrado !!!';
+  gMsgSenhaIncorreta: String = 'Senha Incorreta !!!';
+  gMsgSenhaAtualIncorreta: String = 'Senha Atual Incorreta !!!';
+  gMsgSenhasNaoConferem: String = 'Senhas Não Conferem !!!';
+  gMsgErroSenhaAlterada: String = 'Senhas Não Alterada !!!';
+  gMsgErroAlterar: String = 'Alteração Não Permitida !!!';
+  gMsgErroAlterarSenha: String = 'Alteração de Senha Não Permitida !!!';
+
+  gMsgRegistroJaExiste: String = 'Já Existe um Registro Cadastrado com este ';
+  gMsgCaracterInsuficiente: String = 'Requer Mais que 5 Caracteres !!!';
+
+  gMsgSenhaEmBranco: String = 'Algum Campo de Senha Está em Branco !!! Favor Conferir';
+
+  gMsgErroInstanciarClasse: String = 'Erro ao Instanciar a Classe';
+  gMsgErroExecSQL: String = 'Erro ao Executar Comando SQL !!!' + #13#13;
+  gMsgErroCriarTabela: String = 'Erro ao Criar Tabela !!!' + #13#13;
+
+implementation
+
+end.

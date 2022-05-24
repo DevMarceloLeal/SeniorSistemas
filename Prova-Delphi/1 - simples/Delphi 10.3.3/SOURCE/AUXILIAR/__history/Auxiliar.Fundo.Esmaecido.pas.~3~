@@ -1,0 +1,64 @@
+unit Auxiliar.Fundo.Esmaecido;
+
+interface
+
+uses
+  System.Classes,
+  Vcl.Forms,
+  uView.BackTransparent;
+
+type
+  TFundoEsmaecido = class(TComponent)
+  private
+    FEsquerda: Integer;
+    FComprimento: Integer;
+    FTopo: Integer;
+    FPosicao: TPosition;
+    FLargura: Integer;
+  public
+    FFundoEsmaecido: TfrmBlack;
+    destructor Destroy; override;
+    class function New: TFundoEsmaecido;
+    procedure Escurecer;
+    procedure Clarear;
+    property Comprimento: Integer read FComprimento write FComprimento;
+    property Topo: Integer read FTopo write FTopo;
+    property Esquerda: Integer read FEsquerda write FEsquerda;
+    property Posicao: TPosition read FPosicao write FPosicao;
+  end;
+
+implementation
+
+uses
+  System.SysUtils;
+
+{ TFundoEsmaecido }
+
+destructor TFundoEsmaecido.Destroy;
+begin
+  inherited;
+end;
+
+class function TFundoEsmaecido.New: TFundoEsmaecido;
+begin
+  Result := TFundoEsmaecido.Create(nil);
+end;
+
+procedure TFundoEsmaecido.Escurecer;
+begin
+  FFundoEsmaecido          := TfrmBlack.New;
+  FFundoEsmaecido.Width    := FLargura;
+  FFundoEsmaecido.Height   := FComprimento;
+  FFundoEsmaecido.Top      := FTopo;
+  FFundoEsmaecido.Left     := FEsquerda;
+  FFundoEsmaecido.Position := FPosicao;
+  FFundoEsmaecido.Show;
+end;
+
+procedure TFundoEsmaecido.Clarear;
+begin
+  FFundoEsmaecido.Close;
+end;
+
+end.
+

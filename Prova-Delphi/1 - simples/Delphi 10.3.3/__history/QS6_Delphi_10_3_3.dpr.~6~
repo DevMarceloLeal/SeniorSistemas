@@ -1,0 +1,25 @@
+program QS6_Delphi_10_3_3;
+
+uses
+  Vcl.Forms,
+  Vcl.Themes,
+  Vcl.Styles,
+  uView.Principal in 'SOURCE\VIEW\uView.Principal.pas' {frmPrincipal},
+  Auxiliar.Dialogos in 'SOURCE\AUXILIAR\Auxiliar.Dialogos.pas',
+  Controller.Interfaces in 'SOURCE\CONTROLLER\Controller.Interfaces.pas',
+  Controller.Factory in 'SOURCE\CONTROLLER\Controller.Factory.pas',
+  Model.Texto in 'SOURCE\MODEL\Model.Texto.pas',
+  uView.BackTransparent in 'SOURCE\VIEW\uView.BackTransparent.pas' {frmBlack},
+  Auxiliar.Fundo.Esmaecido in 'SOURCE\AUXILIAR\Auxiliar.Fundo.Esmaecido.pas',
+  Auxiliar.Variaveis.Globais in 'SOURCE\AUXILIAR\Auxiliar.Variaveis.Globais.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.CreateForm(TfrmBlack, frmBlack);
+  TStyleManager.TrySetStyle('Sapphire Kamri');
+  Application.Run;
+end.

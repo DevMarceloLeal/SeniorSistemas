@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/01/13 14:03:35.000.393,=C:\Users\leals\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/13 14:05:36.000.633,=C:\Users\leals\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/27 18:39:09.000.365,=C:\Users\leals\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/20 11:54:46.000.004,=C:\Users\leals\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/20 12:01:36.000.163,C:\Users\leals\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\uFrmPrincipal.pas</Transaction>
+    <Transaction>2022/05/20 12:01:36.000.163,C:\Users\leals\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\uFrmPrincipal.dfm</Transaction>
+    <Transaction>2022/05/20 12:02:20.000.073,C:\Users\leals\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\QS6_Delphi_10_3_3.dproj</Transaction>
+    <Transaction>2022/05/20 12:12:15.000.371,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\uFrmPrincipal.pas=</Transaction>
+    <Transaction>2022/05/20 12:12:54.000.929,=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\VIEW\uFrmPrincipal.pas</Transaction>
+    <Transaction>2022/05/20 12:13:21.000.971,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\VIEW\uFrmPrincipal.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\VIEW\uView.Principal.pas</Transaction>
+    <Transaction>2022/05/20 12:13:21.000.971,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\VIEW\uFrmPrincipal.dfm=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\VIEW\uView.Principal.dfm</Transaction>
+    <Transaction>2022/05/20 13:40:45.000.851,=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\Unit1.pas</Transaction>
+    <Transaction>2022/05/20 13:52:02.000.352,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\Unit1.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\AUXILIAR\Auxiliar.Dialogos.pas</Transaction>
+    <Transaction>2022/05/20 14:07:04.000.154,=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\Unit1.pas</Transaction>
+    <Transaction>2022/05/20 14:07:22.000.221,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\Unit1.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\CONTROLLER\Controller.Interfaces.pas</Transaction>
+    <Transaction>2022/05/20 14:11:03.000.895,=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\Unit1.pas</Transaction>
+    <Transaction>2022/05/20 14:11:16.000.029,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\Unit1.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\CONTROLLER\Controller.Factory.pas</Transaction>
+    <Transaction>2022/05/20 14:14:19.000.291,=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\Unit1.pas</Transaction>
+    <Transaction>2022/05/20 14:14:30.000.089,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\Unit1.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\MODEL\Model.Texto.pas</Transaction>
+    <Transaction>2022/05/20 14:37:05.000.588,=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\VIEW\View.BackTransparent.pas</Transaction>
+    <Transaction>2022/05/20 14:37:11.000.706,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\VIEW\View.BackTransparent.dfm=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\VIEW\uView.BackTransparent.dfm</Transaction>
+    <Transaction>2022/05/20 14:37:11.000.706,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\VIEW\View.BackTransparent.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\VIEW\uView.BackTransparent.pas</Transaction>
+    <Transaction>2022/05/20 14:42:17.000.011,=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\Unit1.pas</Transaction>
+    <Transaction>2022/05/20 14:42:39.000.997,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\Unit1.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\AUXILIAR\Auxiliar.Fundo.Esmaecido.pas</Transaction>
+    <Transaction>2022/05/20 14:56:12.000.792,=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\AUXILIAR\Auxiliar.Variaveis.Globais.pas</Transaction>
+    <Transaction>2022/05/20 15:07:36.000.938,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\AUXILIAR\Auxiliar.Dialogos.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\AUXILIAR\uAuxiliar.Dialogos.pas</Transaction>
+    <Transaction>2022/05/20 15:07:51.000.494,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\AUXILIAR\Auxiliar.Fundo.Esmaecido.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\AUXILIAR\uAuxiliar.Fundo.Esmaecido.pas</Transaction>
+    <Transaction>2022/05/20 15:07:57.000.079,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\AUXILIAR\Auxiliar.Variaveis.Globais.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\AUXILIAR\uAuxiliar.Variaveis.Globais.pas</Transaction>
+    <Transaction>2022/05/20 15:08:50.000.104,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\MODEL\Model.Texto.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\MODEL\uModel.Texto.pas</Transaction>
+    <Transaction>2022/05/20 15:08:59.000.420,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\CONTROLLER\Controller.Factory.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\CONTROLLER\uController.Factory.pas</Transaction>
+    <Transaction>2022/05/20 15:09:04.000.820,D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\CONTROLLER\Controller.Interfaces.pas=D:\Desafio Delphi - ERP\Prova-Delphi\1 - simples\Delphi 10.3.3\SOURCE\CONTROLLER\uController.Interfaces.pas</Transaction>
+  </Transactions>
+</BorlandProject>

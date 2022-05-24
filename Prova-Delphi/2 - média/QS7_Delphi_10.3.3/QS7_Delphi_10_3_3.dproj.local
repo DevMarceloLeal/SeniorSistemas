@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/01/13 14:03:35.000.393,=C:\Users\leals\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/13 14:05:36.000.633,=C:\Users\leals\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/01/27 18:39:09.000.365,=C:\Users\leals\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/21 21:50:24.000.242,=C:\Users\leals\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/22 00:46:16.000.694,D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\VIEW\uView.Principal.pas=C:\Users\leals\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/22 00:46:16.000.694,D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\VIEW\uView.Principal.dfm=C:\Users\leals\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/05/22 00:47:23.000.302,D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\QS7_Delphi_10_3_3.dproj=C:\Users\leals\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/05/22 01:04:13.000.236,=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\AUXILIAR\uAuxiliar.Fundo.Esmaecido.pas</Transaction>
+    <Transaction>2022/05/22 01:04:13.000.262,=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\AUXILIAR\uAuxiliar.Variaveis.Globais.pas</Transaction>
+    <Transaction>2022/05/22 01:04:13.000.210,=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\AUXILIAR\uAuxiliar.Dialogos.pas</Transaction>
+    <Transaction>2022/05/22 01:06:32.000.656,=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\VIEW\uView.BackTransparent.pas</Transaction>
+    <Transaction>2022/05/22 01:18:49.000.215,=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\Unit1.pas</Transaction>
+    <Transaction>2022/05/22 01:19:28.000.724,D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\AUXILIAR\uAuxiliar.Helpers.pas=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\Unit1.pas</Transaction>
+    <Transaction>2022/05/22 23:29:00.000.715,=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\Unit1.pas</Transaction>
+    <Transaction>2022/05/22 23:29:19.000.583,D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\CONTROLLER\Controller.Intefaces.pas=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\Unit1.pas</Transaction>
+    <Transaction>2022/05/22 23:29:27.000.181,D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\CONTROLLER\uController.Intefaces.pas=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\CONTROLLER\Controller.Intefaces.pas</Transaction>
+    <Transaction>2022/05/22 23:37:13.000.787,=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\Unit1.pas</Transaction>
+    <Transaction>2022/05/22 23:37:25.000.913,D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\Unit1.pas=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\CONTROLLER\uController.Factory.pas</Transaction>
+    <Transaction>2022/05/22 23:39:05.000.479,=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\Unit1.pas</Transaction>
+    <Transaction>2022/05/22 23:39:23.000.373,D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\Unit1.pas=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\MODEL\uModel.Maquina.pas</Transaction>
+    <Transaction>2022/05/22 23:40:59.000.417,D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\CONTROLLER\uController.Interfaces.pas=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\CONTROLLER\uController.Intefaces.pas</Transaction>
+    <Transaction>2022/05/23 02:10:46.689,=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\Unit1.pas</Transaction>
+    <Transaction>2022/05/23 02:10:59.848,D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\SOURCE\MODEL\uModel.Troco.pas=D:\Desafio Delphi - ERP\Prova-Delphi\2 - média\QS7_Delphi_10.3.3\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

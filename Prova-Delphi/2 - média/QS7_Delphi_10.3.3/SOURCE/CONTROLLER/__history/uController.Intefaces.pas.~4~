@@ -1,0 +1,16 @@
+unit uController.Intefaces;
+
+interface
+
+uses
+  System.Classes;
+
+type
+  IMaquina = interface
+    ['{FC94C9ED-0AB8-441D-8BAB-9272E59ED403}']
+    function MontarTroco(aTroco: Double): TList;
+  end;
+
+implementation
+
+end.

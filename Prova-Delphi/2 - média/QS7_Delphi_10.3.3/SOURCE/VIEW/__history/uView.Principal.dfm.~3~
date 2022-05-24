@@ -1,0 +1,197 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Desafio Delphi - Teste Senior Sistemas'
+  ClientHeight = 301
+  ClientWidth = 482
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 9
+    Top = 252
+    Width = 105
+    Height = 13
+    CustomHint = bhPrincipal
+    AutoSize = False
+    Caption = 'Desenvolvido Por'
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clGrayText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold, fsItalic]
+    Font.Quality = fqClearTypeNatural
+    ParentFont = False
+    StyleElements = [seClient, seBorder]
+  end
+  object Label2: TLabel
+    Left = 9
+    Top = 265
+    Width = 105
+    Height = 13
+    CustomHint = bhPrincipal
+    AutoSize = False
+    Caption = 'Marcelo Leal'
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clGrayText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Font.Quality = fqClearTypeNatural
+    ParentFont = False
+    StyleElements = [seClient, seBorder]
+  end
+  object Label3: TLabel
+    Left = 9
+    Top = 277
+    Width = 105
+    Height = 13
+    CustomHint = bhPrincipal
+    AutoSize = False
+    Caption = '(21) 96484-9644'
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clGrayText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Font.Quality = fqClearTypeNatural
+    ParentFont = False
+    StyleElements = [seClient, seBorder]
+  end
+  object btnEncerrar: TButton
+    Left = 375
+    Top = 255
+    Width = 98
+    Height = 32
+    Cursor = crHandPoint
+    Hint = 'Encerra a Janela e Retorna ao Windows'
+    CustomHint = bhPrincipal
+    Caption = '&Encerrar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    Font.Quality = fqClearTypeNatural
+    ParentFont = False
+    TabOrder = 1
+  end
+  object GroupBox1: TGroupBox
+    Left = 8
+    Top = 7
+    Width = 465
+    Height = 239
+    CustomHint = bhPrincipal
+    TabOrder = 0
+    object edtTotalPagar: TLabeledEdit
+      Left = 14
+      Top = 37
+      Width = 130
+      Height = 28
+      CustomHint = bhPrincipal
+      Alignment = taRightJustify
+      CharCase = ecUpperCase
+      EditLabel.Width = 107
+      EditLabel.Height = 20
+      EditLabel.CustomHint = bhPrincipal
+      EditLabel.Caption = 'R$ Total '#224' Pagar'
+      EditLabel.Font.Charset = DEFAULT_CHARSET
+      EditLabel.Font.Color = clWindowText
+      EditLabel.Font.Height = -15
+      EditLabel.Font.Name = 'Segoe UI'
+      EditLabel.Font.Style = []
+      EditLabel.Font.Quality = fqClearTypeNatural
+      EditLabel.ParentFont = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      Font.Quality = fqClearTypeNatural
+      LabelSpacing = 5
+      ParentFont = False
+      TabOrder = 0
+    end
+    object edtTotalPago: TLabeledEdit
+      Left = 166
+      Top = 37
+      Width = 130
+      Height = 28
+      CustomHint = bhPrincipal
+      Alignment = taRightJustify
+      CharCase = ecUpperCase
+      EditLabel.Width = 91
+      EditLabel.Height = 20
+      EditLabel.CustomHint = bhPrincipal
+      EditLabel.Caption = 'R$ Total Pago'
+      EditLabel.Font.Charset = DEFAULT_CHARSET
+      EditLabel.Font.Color = clWindowText
+      EditLabel.Font.Height = -15
+      EditLabel.Font.Name = 'Segoe UI'
+      EditLabel.Font.Style = []
+      EditLabel.Font.Quality = fqClearTypeNatural
+      EditLabel.ParentFont = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      Font.Quality = fqClearTypeNatural
+      LabelSpacing = 5
+      ParentFont = False
+      TabOrder = 1
+    end
+    object edtTroco: TLabeledEdit
+      Left = 318
+      Top = 37
+      Width = 130
+      Height = 28
+      CustomHint = bhPrincipal
+      TabStop = False
+      Alignment = taRightJustify
+      CharCase = ecUpperCase
+      EditLabel.Width = 58
+      EditLabel.Height = 20
+      EditLabel.CustomHint = bhPrincipal
+      EditLabel.Caption = 'R$ Troco'
+      EditLabel.Font.Charset = DEFAULT_CHARSET
+      EditLabel.Font.Color = clWindowText
+      EditLabel.Font.Height = -15
+      EditLabel.Font.Name = 'Segoe UI'
+      EditLabel.Font.Style = []
+      EditLabel.Font.Quality = fqClearTypeNatural
+      EditLabel.ParentFont = False
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Segoe UI'
+      Font.Style = [fsBold]
+      Font.Quality = fqClearTypeNatural
+      LabelSpacing = 5
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 2
+    end
+    object edtListaTroco: TMemo
+      Left = 14
+      Top = 88
+      Width = 434
+      Height = 137
+      CustomHint = bhPrincipal
+      TabOrder = 3
+    end
+  end
+  object bhPrincipal: TBalloonHint
+    Left = 341
+    Top = 65524
+  end
+end

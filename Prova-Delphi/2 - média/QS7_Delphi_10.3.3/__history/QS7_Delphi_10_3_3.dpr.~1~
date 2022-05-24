@@ -1,0 +1,14 @@
+program QS7_Delphi_10_3_3;
+
+uses
+  Vcl.Forms,
+  uView.Principal in 'SOURCE\VIEW\uView.Principal.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
